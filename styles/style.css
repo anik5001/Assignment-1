@@ -1,0 +1,84 @@
+/* nav bar styles */
+.banner{
+  background-image: url('../Assets/Hero-bg.png');
+  width: 1140px;
+  height: 700px;
+  margin: 0 auto;
+ 
+}
+.logo-signup{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 150px 158px 150px;
+  /* padding: 20px; */
+}
+.logo-signup h3{
+    color:#4E47FF;
+    height: 51px;
+    width: 99px;
+    font-weight: bold;
+    font-size: 34px;
+}
+.logo-signup button{
+ background-color: #4E47FF;
+ color: azure;
+  width: 132px;
+  height: 48px;
+  /* padding: 12px 36px; */
+  margin-top: 30px;
+  border-radius: 10px;
+   font-weight: bold;
+   font-size: 16px;
+}
+.primary-color{
+   background-color: #4E47FF;
+ color: azure;
+}
+.banner-section{
+ 
+  display:block;
+  justify-items: center;
+  
+}
+.banner-section h1{
+  color: #252432;
+  font-weight: bold;
+  font-size: 65px;
+  gap: 0px;
+
+}
+.banner-section button{
+   background-color: #4E47FF;
+ color: azure;
+ width: 174px;
+ height: 48px;
+ gap: 16px;
+ border-radius: 10px;
+}
+/* Action Section Styles */
+
+.action-section{
+  background-color: rgb(249, 250, 250);
+  display: flex;
+  justify-content: space-between;
+  margin:0 auto;
+  padding: 116px 140px 116px 140px;
+  width: 1140px;
+  height: 328px;
+}
+.title{
+  font-weight: bold;
+  font-size: 42px;
+  color: #252432;
+}
+.subtitle{
+  color: #dfdae9;
+  /* font-size:10px; */
+}
+.launch-btn{
+  width: 229px;
+  height: 48px;
+  gap: 10px;
+  padding: 12px 36px;
+  border-radius: 10px;
+}
