@@ -317,3 +317,8 @@ footer{
     font-size: 100px;
     
 }
+button:hover{
+  cursor: pointer;
+  color: #000;
+  background-color: lab(67.47% 8.81 67.37);
+}
