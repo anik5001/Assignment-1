@@ -28,6 +28,7 @@ body {
     font-weight: bold;
     font-size: 34px;
 }
+
 .logo-signup button{
  background-color: #4E47FF;
  color: azure;
@@ -53,7 +54,7 @@ body {
   color: #252432;
   font-weight: bold;
   font-size: 65px;
-  gap: 0px;
+    margin: 0 auto;
 
 }
 .banner-section button{
@@ -63,6 +64,7 @@ body {
  height: 48px;
  gap: 16px;
  border-radius: 10px;
+ margin-top: 30px;
 }
 /* Action Section Styles */
 
@@ -71,13 +73,13 @@ body {
   display: flex;
   justify-content: space-between;
   margin:0 auto;
-  padding: 116px 140px 116px 140px;
-  width: 1140px;
+  padding: 116px 140px 116px 220px;
+ max-width: 1140px;
   height: 328px;
 }
 .title{
   font-weight: bold;
-  font-size: 42px;
+  font-size: 38px;
   color: #252432;
 }
 .subtitle{
@@ -101,19 +103,19 @@ body {
   /* padding: 50px 80px; */
   /* border-radius: 24px; */
    padding: 40px 20px;
-  border-radius: 20px;
+  border-radius: 24px;
   text-align: center;
-  margin: 40px auto;
+  margin: 0 auto;
   max-width: 900px;
   font-family: sans-serif;
 }
 .productive-user-section div{
-   margin: 10px 20px;
+   margin:0 auto;
 }
  
 .productive-user-section-title{
   text-align: center;
-  padding-top: 50px;
+  padding-top: 30px;
   font-size: 38px;
   font-weight: bold;
 }
@@ -130,7 +132,8 @@ body {
 .users {
   color:#4E47FF;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 80px;
+  margin: 0 auto;
   
 }
 
@@ -292,15 +295,15 @@ footer{
   background-color: rgba(255, 255, 255, 1);
 }
 .footer-container{
-  text-align: left;
+  
   width: 1440px;
   height: 430px;
   justify-items: center;
   
+  
 }
 .footer-nav-container{
   display: flex;
-
   justify-content:center;
   gap: 50px;
   
@@ -317,6 +320,7 @@ footer{
     width: 99px;
     font-weight: bold;
     font-size: 100px;
+    
     
 }
 button:hover{
