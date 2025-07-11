@@ -1,3 +1,10 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f7ff;
+}
+
+
 /* nav bar styles */
 .banner{
   background-image: url('../Assets/Hero-bg.png');
@@ -12,7 +19,7 @@
   margin: 0px 150px 158px 150px;
   /* padding: 20px; */
 }
-.logo-signup h3{
+.banner-logo{
     color:#4E47FF;
     height: 51px;
     width: 99px;
@@ -169,4 +176,144 @@
   height: 32px;
   border-radius: 50%;
   margin-right: 10px;
+}
+
+
+/* rady-to-focus-title */
+
+.rady-to-focus{
+  background-color: #dfdae9;
+  width: 1140px;
+  height: 700px;
+}
+.rady-to-focus-title{
+  text-align: center;
+}
+.rady-to-focus-title h1{
+  font-weight: bold;
+  font-size: 50px;
+}
+.rady-to-focus-title p{
+ color: rgba(149, 129, 129, 0.8);
+}
+.rady-to-focus-title button{
+ background-color: #4E47FF;
+ color: azure;
+ width: 200px;
+ height: 48px;
+ gap: 10px;
+ border-radius: 10px;
+}
+.focus-img{
+  border-radius: 48px;
+  padding: 20px 150px;
+}
+/*  */
+
+
+
+.contact-section {
+  padding: 60px 20px;
+  background-color: #f5f7ff;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.contact-left {
+ 
+  text-align: center;
+  min-width: 250px;
+  padding: 40px;
+}
+
+.contact-left h2 {
+  font-size: 90px;
+  line-height: 1.2;
+  color: #000;
+  font-weight: bold;
+  text-align: left;
+}
+
+.contact-right {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+}
+
+.contact-right form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-right label {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+
+.contact-right input,
+.contact-right textarea {
+  padding: 12px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  gap: 20px;
+
+}
+
+.contact-right textarea {
+  height: 100px;
+}
+
+.contact-right button {
+  margin-top: 20px;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background-color: #5a4fff;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  
+}
+/* footer styles */
+footer{
+  background-color: rgba(255, 255, 255, 1);
+}
+.footer-container{
+  /* text-align: center; */
+  width: 1440px;
+  height: 430px;
+  padding: 40px;
+  justify-items: center;
+}
+.footer-nav-container{
+  display: flex;
+
+  justify-content:center;
+  gap: 50px;
+  
+
+  
+}
+.footer-nav-container a{
+  text-decoration: none;
+}
+.footer-container h1{
+    color:#4E47FF;
+    height: 51px;
+    width: 99px;
+    font-weight: bold;
+    font-size: 100px;
+    
 }
