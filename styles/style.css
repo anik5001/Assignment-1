@@ -1,6 +1,8 @@
 body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
   background-color: #f5f7ff;
 }
 
@@ -132,22 +134,22 @@ body {
   
 }
 
-/*     */
-/*  */
-.testimonials {
+/*  feedback-section   */
+
+.feedback-section {
   background: #f8f9ff;
   padding: 40px 20px;
   text-align: center;
   font-family: sans-serif;
 }
 
-.testimonials h2 {
+.feedback-section h2 {
   font-size: 28px;
   margin-bottom: 30px;
   color: #1f1f1f;
 }
 
-.testimonial-cards {
+.feedback-section-cards {
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -179,24 +181,21 @@ body {
 }
 
 
-/* rady-to-focus-title */
+/* ready-to-focus-title */
 
-.rady-to-focus{
-  background-color: #dfdae9;
-  width: 1140px;
-  height: 700px;
-}
-.rady-to-focus-title{
+
+.ready-to-focus-title{
   text-align: center;
 }
-.rady-to-focus-title h1{
+.ready-to-focus-title h1{
   font-weight: bold;
   font-size: 50px;
+  gap: 10px;
 }
-.rady-to-focus-title p{
+.ready-to-focus-title p{
  color: rgba(149, 129, 129, 0.8);
 }
-.rady-to-focus-title button{
+.ready-to-focus-title button{
  background-color: #4E47FF;
  color: azure;
  width: 200px;
@@ -204,11 +203,13 @@ body {
  gap: 10px;
  border-radius: 10px;
 }
-.focus-img{
+.ready-to-focus img{
   border-radius: 48px;
   padding: 20px 150px;
+  border-radius: 15px;
+ 
 }
-/*  */
+/* contact-section */
 
 
 
@@ -265,7 +266,7 @@ body {
   margin-top: 5px;
   border-radius: 6px;
   border: 1px solid #ddd;
-  font-size: 14px;
+  font-size: 18px;
   gap: 20px;
 
 }
@@ -291,11 +292,11 @@ footer{
   background-color: rgba(255, 255, 255, 1);
 }
 .footer-container{
-  /* text-align: center; */
+  text-align: left;
   width: 1440px;
   height: 430px;
-  padding: 40px;
   justify-items: center;
+  
 }
 .footer-nav-container{
   display: flex;
@@ -308,6 +309,7 @@ footer{
 }
 .footer-nav-container a{
   text-decoration: none;
+  color: hwb(0 1% 89%);
 }
 .footer-container h1{
     color:#4E47FF;
@@ -320,5 +322,5 @@ footer{
 button:hover{
   cursor: pointer;
   color: #000;
-  background-color: lab(67.47% 8.81 67.37);
+  background-color:lab(67.47% 8.81 67.37);
 }
